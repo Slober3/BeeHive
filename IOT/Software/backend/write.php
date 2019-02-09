@@ -17,12 +17,11 @@ try {
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 if (!isset($_POST["input"])) {
-$stmt = $dbh->prepare("INSERT INTO beehive (temp, gas, airpress, lv, timestamp) VALUES (:temp, :gas, :airpress, :lv, :timestamp)");
+$stmt = $dbh->prepare("INSERT INTO beehive (temp, gas, airpress, lv) VALUES (:temp, :gas, :airpress, :lv)");
 $stmt->bindParam(':temp', $_POST["temp"]);
 $stmt->bindParam(':gas', $_POST["gas"]);
 $stmt->bindParam(':airpress', $_POST["airpress"]);
 $stmt->bindParam(':lv', $_POST["lv"]);
-$stmt->bindParam(':timestamp', $_POST["timestamp"]);
     // use exec() because no results are returned
     $stmt->execute();
 }
