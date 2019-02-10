@@ -13,18 +13,18 @@ BEEHIVE:
 
 2) Check if you got everything.
 
-2.1) Can you aquire the matirials?
+3) Can you aquire the matirials?
 
-2.2) Build the beehive.
+4) Build the beehive.
 
 
 IOT:
 
 1) Upload and configure the Website and backend (includes/Config.php & the .SQL files)
 
-XX) ******************************
+2) ******************************
 
-XX) Do not forget to change your APIKEY!
+3) Do not forget to change your APIKEY!
 
 
 ## Is this for anyone?
@@ -60,7 +60,7 @@ Manny thanks to the contributers that already are cotributing to this project.
 
 ## Contact
 
-2) Email: beehive@7ol.eu
+1) Email: beehive@7ol.eu
 
 
 ## License
