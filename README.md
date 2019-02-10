@@ -54,6 +54,8 @@ Formatted JSON Data
 ]
 ```
 
+I'ts going to run  through the MQTT protocol and Node-RED
+
 ## Contributors
 We are still searching brainstormers, users who would like to help and guys who would love to dive into this awesome project.
 Manny thanks to the contributers that already are cotributing to this project.

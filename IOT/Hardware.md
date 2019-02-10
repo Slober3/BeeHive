@@ -18,7 +18,7 @@ We're using a variety of diffrent sensors they include but are not limeted to
 
 4) Volatile Organic Compounds (VOC) sensor
 
-These sensors will be measured by an BMP680 Sensor 
+These sensors will be measured by an BME680 Sensor 
 
 
 ## Is this for anyone?
