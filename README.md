@@ -31,4 +31,5 @@ Manny thanks to the contributers that already are cotributing to this project.
 
 
 ## License
-This projects is Licensed under the 4-clause license (original "BSD License")
+This projects is Licensed under the CC-BY-NC-SA-4.0 license
+
