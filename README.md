@@ -31,4 +31,4 @@ Manny thanks to the contributers that already are cotributing to this project.
 
 
 ## License
-This projects is Licensed under the Apache License Version 2.0.
+This projects is Licensed under the 4-clause license (original "BSD License")
