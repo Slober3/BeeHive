@@ -1,0 +1,690 @@
+[
+    {
+        "id": "d69a4322.ee701",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "3c1f8af8.6775f6",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "",
+        "broker": "192.168.0.143",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "2c5129e1.532716",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Beehive IOT",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "ed55c22b.d8805",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "Century Gothic,CenturyGothic,AppleGothic,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#4B7930",
+                    "value": "#4B7930",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#4B7930",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#000000",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#6db046",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#4b7930",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "Century Gothic,CenturyGothic,AppleGothic,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Beehive IOT",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "e387b4.7469885",
+        "type": "ui_group",
+        "z": "",
+        "name": "Monitoring",
+        "tab": "2c5129e1.532716",
+        "order": 2,
+        "disp": true,
+        "width": "17",
+        "collapse": true
+    },
+    {
+        "id": "3bf944bd.edd14c",
+        "type": "ui_group",
+        "z": "",
+        "name": "Current",
+        "tab": "2c5129e1.532716",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": true
+    },
+    {
+        "id": "5d5a3962.fec0e8",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Configuration",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "ea2d6e45.ace6e",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Status",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "6f7e6831.10fe88",
+        "type": "ui_group",
+        "z": "",
+        "name": "Please wait...",
+        "tab": "5d5a3962.fec0e8",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "a44b14ca.64a7f8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Please wait...",
+        "tab": "ea2d6e45.ace6e",
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "5a98618e.1cb2d",
+        "type": "ui_chart",
+        "z": "d69a4322.ee701",
+        "name": "",
+        "group": "e387b4.7469885",
+        "order": 5,
+        "width": "7",
+        "height": "4",
+        "label": "Airpressure",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "10",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "outputs": 1,
+        "x": 550,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "10d9e823.32fef8",
+        "type": "ui_chart",
+        "z": "d69a4322.ee701",
+        "name": "",
+        "group": "e387b4.7469885",
+        "order": 6,
+        "width": "10",
+        "height": "12",
+        "label": "Airquality",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "10",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "outputs": 1,
+        "x": 540,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "967413c6.3949c",
+        "type": "ui_chart",
+        "z": "d69a4322.ee701",
+        "name": "",
+        "group": "e387b4.7469885",
+        "order": 7,
+        "width": "7",
+        "height": "4",
+        "label": "Hum.",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "10",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "outputs": 1,
+        "x": 530,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "61245b5d.400a54",
+        "type": "ui_chart",
+        "z": "d69a4322.ee701",
+        "name": "",
+        "group": "e387b4.7469885",
+        "order": 8,
+        "width": "7",
+        "height": "4",
+        "label": "Temp.",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "10",
+        "removeOlder": 1,
+        "removeOlderPoints": "10",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "outputs": 1,
+        "x": 530,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "951eca21.b11858",
+        "type": "mqtt in",
+        "z": "d69a4322.ee701",
+        "name": "",
+        "topic": "bhive/temp",
+        "qos": "2",
+        "broker": "3c1f8af8.6775f6",
+        "x": 300,
+        "y": 440,
+        "wires": [
+            [
+                "61245b5d.400a54",
+                "48fc0337.b8c50c"
+            ]
+        ]
+    },
+    {
+        "id": "6defc114.bad61",
+        "type": "mqtt in",
+        "z": "d69a4322.ee701",
+        "name": "",
+        "topic": "bhive/hum",
+        "qos": "2",
+        "broker": "3c1f8af8.6775f6",
+        "x": 300,
+        "y": 560,
+        "wires": [
+            [
+                "967413c6.3949c",
+                "d9e0ff5.4dfac"
+            ]
+        ]
+    },
+    {
+        "id": "28ed5ade.00c956",
+        "type": "mqtt in",
+        "z": "d69a4322.ee701",
+        "name": "",
+        "topic": "bhive/airq",
+        "qos": "2",
+        "broker": "3c1f8af8.6775f6",
+        "x": 300,
+        "y": 680,
+        "wires": [
+            [
+                "10d9e823.32fef8",
+                "22e4072d.5628e8"
+            ]
+        ]
+    },
+    {
+        "id": "94596f2e.b0565",
+        "type": "mqtt in",
+        "z": "d69a4322.ee701",
+        "name": "",
+        "topic": "bhive/airp",
+        "qos": "2",
+        "broker": "3c1f8af8.6775f6",
+        "x": 300,
+        "y": 820,
+        "wires": [
+            [
+                "5a98618e.1cb2d"
+            ]
+        ]
+    },
+    {
+        "id": "48fc0337.b8c50c",
+        "type": "ui_gauge",
+        "z": "d69a4322.ee701",
+        "name": "",
+        "group": "3bf944bd.edd14c",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Temperature",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 550,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "22e4072d.5628e8",
+        "type": "ui_gauge",
+        "z": "d69a4322.ee701",
+        "name": "",
+        "group": "3bf944bd.edd14c",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Airquality",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 540,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "d9e0ff5.4dfac",
+        "type": "ui_gauge",
+        "z": "d69a4322.ee701",
+        "name": "",
+        "group": "3bf944bd.edd14c",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Humidity",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 540,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "bc8d3d41.468ed",
+        "type": "mqtt out",
+        "z": "d69a4322.ee701",
+        "name": "",
+        "topic": "bhive/hum",
+        "qos": "",
+        "retain": "",
+        "broker": "3c1f8af8.6775f6",
+        "x": 590,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "408b7bc7.dbe834",
+        "type": "mqtt out",
+        "z": "d69a4322.ee701",
+        "name": "",
+        "topic": "bhive/airq",
+        "qos": "",
+        "retain": "",
+        "broker": "3c1f8af8.6775f6",
+        "x": 580,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "5378b4a8.d39abc",
+        "type": "mqtt out",
+        "z": "d69a4322.ee701",
+        "name": "",
+        "topic": "bhive/temp",
+        "qos": "",
+        "retain": "",
+        "broker": "3c1f8af8.6775f6",
+        "x": 590,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "5b80789e.d585b8",
+        "type": "mqtt out",
+        "z": "d69a4322.ee701",
+        "name": "",
+        "topic": "bhive/airp",
+        "qos": "",
+        "retain": "",
+        "broker": "3c1f8af8.6775f6",
+        "x": 580,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "3c0f3c11.9df994",
+        "type": "random",
+        "z": "d69a4322.ee701",
+        "name": "",
+        "low": "1",
+        "high": "10",
+        "inte": "true",
+        "property": "payload",
+        "x": 380,
+        "y": 140,
+        "wires": [
+            [
+                "5378b4a8.d39abc"
+            ]
+        ]
+    },
+    {
+        "id": "9465b78f.7d8b98",
+        "type": "random",
+        "z": "d69a4322.ee701",
+        "name": "",
+        "low": "1",
+        "high": "10",
+        "inte": "true",
+        "property": "payload",
+        "x": 380,
+        "y": 180,
+        "wires": [
+            [
+                "bc8d3d41.468ed"
+            ]
+        ]
+    },
+    {
+        "id": "81df3653.e9f478",
+        "type": "random",
+        "z": "d69a4322.ee701",
+        "name": "",
+        "low": "1",
+        "high": "10",
+        "inte": "true",
+        "property": "payload",
+        "x": 380,
+        "y": 220,
+        "wires": [
+            [
+                "408b7bc7.dbe834"
+            ]
+        ]
+    },
+    {
+        "id": "e3ca6423.05f588",
+        "type": "random",
+        "z": "d69a4322.ee701",
+        "name": "",
+        "low": "1",
+        "high": "10",
+        "inte": "true",
+        "property": "payload",
+        "x": 380,
+        "y": 260,
+        "wires": [
+            [
+                "5b80789e.d585b8"
+            ]
+        ]
+    },
+    {
+        "id": "d2315485.62e6a8",
+        "type": "inject",
+        "z": "d69a4322.ee701",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 170,
+        "y": 200,
+        "wires": [
+            [
+                "e3ca6423.05f588",
+                "3c0f3c11.9df994",
+                "9465b78f.7d8b98",
+                "81df3653.e9f478"
+            ]
+        ]
+    },
+    {
+        "id": "4ff28842.227c38",
+        "type": "ui_text",
+        "z": "d69a4322.ee701",
+        "group": "a44b14ca.64a7f8",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Please wait...",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 930,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "60619cbe.696a14",
+        "type": "ui_text",
+        "z": "d69a4322.ee701",
+        "group": "6f7e6831.10fe88",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Please wait...",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 930,
+        "y": 420,
+        "wires": []
+    }
+]
