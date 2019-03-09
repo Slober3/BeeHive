@@ -1,4 +1,7 @@
 # BeeHive
+![Beehive Prototype](https://i.imgur.com/9OweVnRl.jpg)
+
+
 Open source IOT beehive 
 
 ## What is it?
