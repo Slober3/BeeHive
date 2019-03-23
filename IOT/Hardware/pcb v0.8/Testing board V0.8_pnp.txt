@@ -1,0 +1,37 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=Testing board V0.8
+*Date=20:27:05
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;75.9284;-27.3584;0;Bottom;Onderdeel2
+2;;;21.5781;-45.1384;0;Bottom;Hole5
+3;;;6.33813;-7.03843;0;Bottom;Hole1
+4;;THT;36.1552;-22.7865;90;Bottom;J25
+5;;THT;15.9901;-29.2353;0;Bottom;J20
+6;;THT;8.37015;-38.4355;0;Bottom;J5
+7;;battery-18650-kit;76.4121;-85.8269;0;Bottom;BAT2
+8;;THT;8.37015;-48.5955;0;Bottom;J6
+9;;;26.6864;-43.7973;0;Bottom;Onderdeel3
+10;;THT;28.6901;-82.5753;0;Bottom;J8
+11;;;115.558;-7.03843;0;Bottom;Hole6
+12;;;13.9581;-111.178;0;Bottom;Hole4
+13;;THT;28.6901;-72.4153;0;Bottom;J9
+14;;THT;36.1551;-15.1664;90;Bottom;J26
+15;;THT;28.6901;-92.7354;0;Bottom;J7
+16;;THT;33.6152;-63.4265;90;Bottom;J13
+17;;THT;36.1552;-30.4065;90;Bottom;J24
+18;;battery-18650-kit;76.4121;-65.5068;0;Bottom;BAT3
+19;;;13.9581;-106.733;0;Bottom;Onderdeel1
+20;;THT;8.37015;-79.0755;0;Bottom;J1
+21;;battery-18650-kit;76.4121;-106.147;0;Bottom;BAT1
+22;;THT;8.37015;-89.2354;0;Bottom;J2
