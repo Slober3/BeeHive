@@ -1,0 +1,27 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=Testing board V0.85 minimal
+*Date=22:06:55
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;30.3478;-32.3251;0;Bottom;Onderdeel2
+2;;molex-1x6-ra;35.1683;-33.157;0;Bottom;JP1
+3;;battery-18650-kit;43.0123;-57.6766;180;Bottom;BAT2
+4;;THT;17.7413;-11.4972;-90;Bottom;J8
+5;;;5.95826;-4.38515;0;Bottom;Hole5
+6;;;89.7783;-88.2051;0;Bottom;Hole6
+7;;;64.3783;-35.5001;0;Bottom;Onderdeel1
+8;;THT;89.2703;-28.1622;0;Bottom;J9
+9;;THT;89.2703;-15.4622;0;Bottom;J10
+10;;THT;89.2703;-5.30219;0;Bottom;J11
+11;;battery-18650-kit;43.0123;-80.5366;180;Bottom;BAT1
+12;;;69.4301;-10.6637;0;Bottom;Onderdeel3
