@@ -4,7 +4,7 @@
 *eMail=
 *
 *Project=Testing board V0.85 minimal
-*Date=00:10:24
+*Date=13:51:05
 *CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
 *
 *
@@ -13,15 +13,17 @@
 *Rotation in degree (0-360, math. pos.)
 *
 *No;Value;Package;X;Y;Rotation;Side;Name
-1;;battery-18650-kit;43.0123;-57.6766;180;Bottom;BAT2
-2;;;5.95826;-4.38515;0;Bottom;Hole5
-3;;battery-18650-kit;43.0123;-80.5366;180;Bottom;BAT1
-4;;;30.3478;-32.3251;0;Bottom;Onderdeel2
-5;;THT;89.2703;-5.30219;0;Bottom;J9
-6;;THT;17.7413;-11.4972;-90;Bottom;J8
+1;;molex-1x6-ra;45.3283;-15.377;0;Bottom;JP3
+2;;;30.3478;-32.3251;0;Bottom;Onderdeel2
+3;;;89.7783;-88.2051;0;Bottom;Hole6
+4;;THT;17.7413;-11.4972;-90;Bottom;J8
+5;;molex-1x6-ra;35.1683;-33.157;0;Bottom;JP1
+6;;battery-18650-kit;43.0123;-57.6766;180;Bottom;BAT2
 7;;THT;89.2703;-25.6222;0;Bottom;J11
-8;;;64.3783;-31.6901;180;Bottom;Onderdeel1
-9;;;89.7783;-88.2051;0;Bottom;Hole6
-10;;;69.43;-10.6637;180;Bottom;Onderdeel3
-11;;THT;89.2703;-15.4622;0;Bottom;J10
-12;;molex-1x6-ra;35.1683;-33.157;0;Bottom;JP1
+8;;molex-1x6-ra;35.1683;-30.617;0;Bottom;JP2
+9;;THT;89.2703;-15.4622;0;Bottom;J10
+10;;battery-18650-kit;43.0123;-80.5366;180;Bottom;BAT1
+11;;THT;89.2703;-5.30219;0;Bottom;J9
+12;;;69.43;-10.6637;180;Bottom;Onderdeel3
+13;;;64.3783;-31.6901;180;Bottom;Onderdeel1
+14;;;5.95826;-4.38515;0;Bottom;Hole5
